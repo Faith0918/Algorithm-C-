@@ -23,9 +23,10 @@ void move(int d){
 				dice[6] = a[next_y][next_x];
 				a[next_y][next_x] = 0;
 			}
-			cout<<1111<<endl;
+//			cout<<1111<<endl;
 			x=next_x;
 			y=next_y;
+			cout<<dice[1]<<endl;
 		}
 	}
 	else if(d == 2){
@@ -44,15 +45,16 @@ void move(int d){
 				dice[6] = a[next_y][next_x];
 				a[next_y][next_x] = 0;
 			}
-			cout<<2222<<endl;
+//			cout<<2222<<endl;
 			x=next_x;
 			y=next_y;
+			cout<<dice[1]<<endl;
 		}
 	}
 	else if(d == 3){
 		int next_x = x;
-		int next_y = y+1;
-		if(next_y<=n){
+		int next_y = y-1;
+		if(next_y>=1){
 			int temp = dice[2];
 			dice[2] = dice[6];
 			dice[6] = dice[5];
@@ -67,13 +69,14 @@ void move(int d){
 			}
 			x=next_x;
 			y=next_y;
-			cout<<3333<<endl;
+			cout<<dice[1]<<endl;
+//			cout<<3333<<endl;
 		}
 	}
 	else if(d == 4){
 		int next_x = x;
-		int next_y = y-1;
-		if(next_y>=1){
+		int next_y = y+1;
+		if(next_y<=n){
 			int temp = dice[2];
 			dice[2] = dice[1];
 			dice[1] = dice[5];
@@ -88,15 +91,16 @@ void move(int d){
 			}
 			x=next_x;
 			y=next_y;
-			cout<<4444<<endl;
+			cout<<dice[1]<<endl;
+//			cout<<4444<<endl;
 		}
 	}
-	cout<<dice[1]<<endl;
+	
 }
 
 int main(){
 	
-	cin>>n>>m>>x>>y>>k;
+	cin>>n>>m>>y>>x>>k;
 	x++;
 	y++;
 	for(int r = 1; r<=n ;r++){
