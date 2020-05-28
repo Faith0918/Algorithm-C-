@@ -7,7 +7,7 @@ int a, p;
 
 int power(int n, int p) {
 	int ret = n;
-	for (int i = 1; i <= p; i++) {
+	for (int i = 1; i < p; i++) {
 		ret = ret * n;
 	}
 	return ret;
