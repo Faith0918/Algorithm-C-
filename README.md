@@ -18,15 +18,7 @@ Solution process
 
 Solution Code
 
-[boj10430.cpp](boj10430.cpp)
-```C++
-#include<iostream>
-
-using namespace std;
-
-cout<<"Hello world!\n";
-
-```
+[kick_start.cpp](kick_start.cpp)
 
 ### Problem #2
 
@@ -37,12 +29,5 @@ Problem Link
 Solution process
 
 Solution Code
-```C++
-#include<iostream>
-
-using namespace std;
-
-cout<<"Hello world!\n";
-
-```
+[maximum_coins.cpp](maximum_coins.cpp)
 
