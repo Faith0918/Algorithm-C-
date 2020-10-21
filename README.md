@@ -29,5 +29,6 @@ Problem Link
 Solution process
 
 Solution Code
+
 [maximum_coins.cpp](maximum_coins.cpp)
 
