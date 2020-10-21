@@ -24,22 +24,6 @@ int solve(string s) {
             continue;
         }
     }
-    
-   /* for (int i = 0; i < start.size(); i++) {
-        int num = start[i];
-
-        for (int j = 0; j < kick.size(); j++) {
-            if (kick[j] > num) {
-                ans += j;
-                break;
-            }
-            if (j == kick.size() - 1 && kick[j] < num) {
-                ans += kick.size();
-
-            }
-
-        }
-    }*/
     return ans;
 }
 
