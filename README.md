@@ -56,16 +56,33 @@
 >>> **Solution process**
 >>>
 >>>> 1) Calculate the number of moves wheels have to make for every numbers(1-N).
->>>> 2) Update minimum value
+>>>> 2) Update the minimum value.
 >>>>
 >>>> **Note**
->>>>> 1) Be careful of the data type choice.
+>>>>> 1) Be careful of data type choices.
 >>>>
 >>>> **Unsolved**
->>>>> 1) I get TLE for the second testcase.
+>>>>> 1) I get a TLE for the second testcase.
 >>>>> 2) I asked about it on Stack Overflow.
 >>>
 >>> **Solution Code**
 >>>
 >>>> [combination_lock.cpp](combination_lock.cpp)
-
+>>
+>> ### Problem #4
+>>
+>>> **Problem Link** 
+>>>
+>>>> [Kick Start 2020 RoundA - Allocation](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc7/00000000001d3f56)
+>>>
+>>> **Solution process**
+>>>
+>>>> 1) 
+>>>> 2) 
+>>>>
+>>>> **Note**
+>>>>> 
+>>>
+>>> **Solution Code**
+>>>
+>>>> [allocation.cpp](allocation.cpp)
