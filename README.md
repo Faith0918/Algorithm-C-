@@ -64,6 +64,7 @@
 >>>> **Unsolved**
 >>>>> 1) I get a TLE for the second testcase.
 >>>>> 2) I asked about it on Stack Overflow.
+>>>>>>https://stackoverflow.com/questions/64508145/round-g-kick-start-2020-combination-lock-tle(https://stackoverflow.com/questions/64508145/round-g-kick-start-2020-combination-lock-tle)
 >>>
 >>> **Solution Code**
 >>>
