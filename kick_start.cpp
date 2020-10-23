@@ -6,7 +6,6 @@ using namespace std;
 
 int solve(string s) {
     vector<int> kick;
-    vector<int> start;
     int ans = 0;
     for (int i = 0; i < s.size(); i++) {
         if (i < s.size() - 2 && s.substr(i, 4) == "KICK") {
