@@ -55,11 +55,15 @@
 >>>
 >>> **Solution process**
 >>>
->>>> 1) 
->>>> 2) 
+>>>> 1) Calculate the number of moves wheels have to make for every numbers(1-N).
+>>>> 2) Update minimum value
 >>>>
 >>>> **Note**
->>>>> 
+>>>>> 1) Get the right data structure for the wheel or implement it well.
+>>>>
+>>>> **Unsolved**
+>>>>> 1) I get TLE for the second testcase.
+>>>>> 2) I asked about it on Stack Overflow.
 >>>
 >>> **Solution Code**
 >>>
