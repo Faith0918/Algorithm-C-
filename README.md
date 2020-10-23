@@ -19,7 +19,7 @@
 >>>> 1) Count number of a word "kick" from the begining of the sentence.
 >>>> 2) When a word "start" shows up, add number of a word "kick" to the answer.
 >>>>
->>>> **<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Caution <br> 1. Make sure the substr input is covered in the string size. <br> 2. Don't make extra unneccessary addition in scanning characters.**
+>>>> **<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Caution <br> 1) Make sure the substr input is covered in the string size. <br> 2) Don't make extra unneccessary addition in scanning characters.**
 >>>
 >>> **Solution Code**
 >>>>
