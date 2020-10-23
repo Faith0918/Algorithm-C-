@@ -59,7 +59,7 @@
 >>>> 2) Update minimum value
 >>>>
 >>>> **Note**
->>>>> 1) Get the right data structure for the wheel or implement it well.
+>>>>> 1) Be careful of the data type choice.
 >>>>
 >>>> **Unsolved**
 >>>>> 1) I get TLE for the second testcase.
