@@ -33,7 +33,9 @@
 >>>
 >>> **Solution process**
 >>>
->>>> asdf
+>>>> 1) Calculate every possible candidates.
+>>>> 2) Update the maximum result to the answer.
+>>>> **<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Caution <br> 1) Make sure the possible maximum is covered in the type of int. <br> **
 >>>
 >>> **Solution Code**
 >>>
