@@ -1,6 +1,6 @@
 > # Problem Solving in C++
 >
->> This is where I leave my problem solution process and the c++ solution code.
+>> This is where I leave my problem solving process and the c++ solution code.
 
 > ## Solved Problems
 >
