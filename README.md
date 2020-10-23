@@ -8,18 +8,22 @@
 >>
 >> Problem #2: [maximum coins](#problem-2)
 >>
+>> Problem #3: [combination lock](#problem-3)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
 >>>
->>>> [Kick Start 2020 RoundA - Kick Start](https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069/0000000000414bfb) 
+>>>> [Kick Start 2020 RoundG - Kick Start](https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069/0000000000414bfb) 
 >>>
 >>> **Solution process**
 >>>
 >>>> 1) Count number of a word "kick" from the begining of the sentence.
 >>>> 2) When a word "start" shows up, add number of a word "kick" to the answer.
 >>>>
->>>> **<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Caution <br> 1) Make sure the substr input is covered in the string size. <br> 2) Don't make extra unneccessary addition in scanning characters.**
+>>>> **Note**
+>>>>> 1) Make sure the substr input is covered in the string size. 
+>>>>> 2) Don't make extra unneccessary addition in scanning characters.
 >>>
 >>> **Solution Code**
 >>>>
@@ -29,15 +33,35 @@
 >>
 >>> **Problem Link** 
 >>>
->>>> [Kick Start 2020 RoundA - Maximum Coins](https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069/0000000000414a23)
+>>>> [Kick Start 2020 RoundG - Maximum Coins](https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069/0000000000414a23)
 >>>
 >>> **Solution process**
 >>>
 >>>> 1) Calculate every possible candidates.
 >>>> 2) Update the maximum result to the answer.
->>>> **<i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Caution <br> 1) Make sure the possible maximum is covered in the type of int. <br> **
+>>>>
+>>>> **Note**
+>>>>> Make sure the possible maximum is covered in the type of int.
 >>>
 >>> **Solution Code**
 >>>
 >>>> [maximum_coins.cpp](maximum_coins.cpp)
+>>
+>> ### Problem #3
+>>
+>>> **Problem Link** 
+>>>
+>>>> [Kick Start 2020 RoundG - Combination Lock](https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069/0000000000414a24)
+>>>
+>>> **Solution process**
+>>>
+>>>> 1) 
+>>>> 2) 
+>>>>
+>>>> **Note**
+>>>>> 
+>>>
+>>> **Solution Code**
+>>>
+>>>> [combination_lock.cpp](combination_lock.cpp)
 
