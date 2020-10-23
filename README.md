@@ -1,7 +1,7 @@
 > # Problem Solving in C++
 >
 >> This is where I leave my problem solution process and the actual c++ code
->
+
 > ## Solved Problems
 >
 >> Problem #1: [kick start](#problem-1)
