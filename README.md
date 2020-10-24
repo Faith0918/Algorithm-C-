@@ -12,6 +12,8 @@
 >>
 >> Problem #4: [allocation](#problem-4)
 >>
+>> Problem #5: [plates](#problem-5)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -79,12 +81,24 @@
 >>>
 >>> **Solution process**
 >>>
->>>> 1) 
->>>> 2) 
->>>>
->>>> **Note**
->>>>> 
+>>>> 1) Sort house prices in ascending order.
+>>>> 2) Get the maximum number of houses under buget.
 >>>
 >>> **Solution Code**
 >>>
 >>>> [allocation.cpp](allocation.cpp)
+>>
+>> ### Problem #5
+>>
+>>> **Problem Link** 
+>>>
+>>>> [Kick Start 2020 RoundA - Plates](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc7/00000000001d40bb)
+>>>
+>>> **Solution process**
+>>>
+>>>> 1) 
+>>>> 2) 
+>>>
+>>> **Solution Code**
+>>>
+>>>> [plates.cpp](plates.cpp)
