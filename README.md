@@ -14,6 +14,8 @@
 >>
 >> Problem #5: [plates](#problem-5)
 >>
+>> Problem #6: [workout](#problem-6)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -96,9 +98,34 @@
 >>>
 >>> **Solution process**
 >>>
->>>> 1) 
->>>> 2) 
+>>>> 1) Try every combination of number of plates to take from each stack.
+>>>> 2) Update the maximum value.
+>>>
+>>>> **Note**
+>>>>> 1) Combination with repitition : Implementable with DFS algorithm(back tracking)
+>>>>
+>>>> **Unsolved**
+>>>>> 1) I get a TLE for the second testcase.
+>>>>> 2) I wonder what could be a faster algorithm than DFS that I used.
 >>>
 >>> **Solution Code**
 >>>
 >>>> [plates.cpp](plates.cpp)
+>>
+>> ### Problem #6
+>>
+>>> **Problem Link** 
+>>>
+>>>> [Kick Start 2020 RoundA - Workout](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc7/00000000001d3f5b)
+>>>
+>>> **Solution process**
+>>>
+>>>> 1) 
+>>>> 2) 
+>>>
+>>>> **Note**
+>>>>> 1) 
+>>>
+>>> **Solution Code**
+>>>
+>>>> [workout.cpp](workout.cpp)
