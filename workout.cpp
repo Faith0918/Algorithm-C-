@@ -32,11 +32,13 @@ int main() {
 		sort(d.begin(), d.end(), cmp);
 // 3) divide each elements by the last(minimum) nuber of difference.
 		vector<pair<int, int>> d_d;
-		for (int i = 0; i < d.size(); i++) {
+		for (int i = 0; i < d.size()-1; i++) {
 			//TODO
+			d_d.push_back(d[i]/d[i+1]);
 		}
 // 4) try to make the maximum number minimum by adding K sessionis in total.
 // 4-0) while(k>0)
+		
 // 4-1) subtract the maximum element(s) min(difference between elements I calculated, # of addable sessions).
 // 4-2) subtract k by min(difference between elements I calculated, # of addable sessions)
 // 4-2) get the next ones
