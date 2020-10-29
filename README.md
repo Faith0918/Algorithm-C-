@@ -16,6 +16,8 @@
 >>
 >> Problem #6: [workout](#problem-6)
 >>
+>> Problem #7: [two sum](#problem-7)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
