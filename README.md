@@ -18,6 +18,8 @@
 >>
 >> Problem #7: [two sum](#problem-7)
 >>
+>> Problem #8: [palindrome_number](#problem-8)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -146,3 +148,19 @@
 >>> **Solution Code**
 >>>
 >>>> [two_sum.cpp](two_sum.cpp)
+>>
+>> ### Problem #8
+>>
+>>> **Problem Link**
+>>>
+>>>> [Leet Code - Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+>>>
+>>> **Solution Process**
+>>>
+>>>> 1) Cast int to string.
+>>>> 2) Check if front characters are the same as back characters.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [palindrome_number.cpp](palindrome_number.cpp)
+>>
