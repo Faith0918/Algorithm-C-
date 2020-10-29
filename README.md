@@ -129,3 +129,18 @@
 >>> **Solution Code**
 >>>
 >>>> [workout.cpp](workout.cpp)
+>>
+>> ### Problem #7
+>>
+>>> **Problem Link** 
+>>>
+>>>> [LeetCode - Two Sum](https://leetcode.com/problems/two-sum/)
+>>>
+>>> **Solution process**
+>>>
+>>>> 1) Sort input numbers in an ascending order.
+>>>> 2) Check if two sum equals to target number until two sum is smaller than the target number.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [two_sum.cpp](two_sum.cpp)
