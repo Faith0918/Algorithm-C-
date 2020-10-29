@@ -18,7 +18,7 @@
 >>
 >> Problem #7: [two sum](#problem-7)
 >>
->> Problem #8: [palindrome_number](#problem-8)
+>> Problem #8: [palindrome number](#problem-8)
 >>
 >> ### Problem #1
 >>
