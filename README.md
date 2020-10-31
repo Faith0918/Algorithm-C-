@@ -16,6 +16,10 @@
 >>
 >> Problem #6: [workout](#problem-6)
 >>
+>> Problem #7: [two sum](#problem-7)
+>>
+>> Problem #8: [palindrome number](#problem-8)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -129,3 +133,34 @@
 >>> **Solution Code**
 >>>
 >>>> [workout.cpp](workout.cpp)
+>>
+>> ### Problem #7
+>>
+>>> **Problem Link** 
+>>>
+>>>> [LeetCode - Two Sum](https://leetcode.com/problems/two-sum/)
+>>>
+>>> **Solution process**
+>>>
+>>>> 1) Sort input numbers in an ascending order.
+>>>> 2) Check if two sum equals to target number until two sum is smaller than the target number.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [two_sum.cpp](two_sum.cpp)
+>>
+>> ### Problem #8
+>>
+>>> **Problem Link**
+>>>
+>>>> [Leet Code - Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+>>>
+>>> **Solution Process**
+>>>
+>>>> 1) Cast int to string.
+>>>> 2) Check if front characters are the same as back characters.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [palindrome_number.cpp](palindrome_number.cpp)
+>>
