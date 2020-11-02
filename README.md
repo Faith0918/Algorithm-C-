@@ -20,6 +20,8 @@
 >>
 >> Problem #8: [palindrome number](#problem-8)
 >>
+>> Problem #9: [reverse integer](#problem-9)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -164,3 +166,23 @@
 >>>
 >>>> [palindrome_number.cpp](palindrome_number.cpp)
 >>
+>> ### Problem #9
+>>
+>>> **Problem Link**
+>>>
+>>>> [Leet Code - Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+>>>
+>>> **Solution Process**
+>>>
+>>>> 1) Check the integer sign.
+>>>> 2) Find the lowest digit of input.
+>>>> 3) Update reverse number.
+>>>> 4) Divide input by 10.(Delete the used digit of input.)
+>>>> 5) Check overflow before multiplying reverse number by 10.
+>>>> 6) Repeate.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [reverse_integer.cpp](reverse_integer.cpp)
+>>
+
