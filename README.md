@@ -22,6 +22,8 @@
 >>
 >> Problem #9: [reverse integer](#problem-9)
 >>
+>> Problem #10: [city finding](#problem-10)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -185,4 +187,20 @@
 >>>
 >>>> [reverse_integer.cpp](reverse_integer.cpp)
 >>
-
+>> ### Problem #10
+>>
+>>> **Problem Link**
+>>>
+>>>> [BAEKJOON - 특정거리의 도시 찾기(City Finding)](https://www.acmicpc.net/problem/18352)
+>>>
+>>> **Solution Process**
+>>>
+>>>> DFS
+>>>> 1) Put first node(city) to visit and check as visited.
+>>>> 2) Find the adjacent nodes and visit if those exists. If not, pop the first node.
+>>>> 3) Repeate until stack is empty.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [city_finding.cpp](city_finding.cpp)
+>>
