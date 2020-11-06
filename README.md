@@ -20,6 +20,10 @@
 >>
 >> Problem #8: [palindrome number](#problem-8)
 >>
+>> Problem #9: [reverse integer](#problem-9)
+>>
+>> Problem #10: [city finding](#problem-10)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -163,4 +167,40 @@
 >>> **Solution Code**
 >>>
 >>>> [palindrome_number.cpp](palindrome_number.cpp)
+>>
+>> ### Problem #9
+>>
+>>> **Problem Link**
+>>>
+>>>> [Leet Code - Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+>>>
+>>> **Solution Process**
+>>>
+>>>> 1) Check the integer sign.
+>>>> 2) Find the lowest digit of input.
+>>>> 3) Update reverse number.
+>>>> 4) Divide input by 10.(Delete the used digit of input.)
+>>>> 5) Check overflow before multiplying reverse number by 10.
+>>>> 6) Repeate.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [reverse_integer.cpp](reverse_integer.cpp)
+>>
+>> ### Problem #10
+>>
+>>> **Problem Link**
+>>>
+>>>> [BAEKJOON - 특정거리의 도시 찾기(City Finding)](https://www.acmicpc.net/problem/18352)
+>>>
+>>> **Solution Process**
+>>>
+>>>> DFS
+>>>> 1) Put first node(city) to visit and check as visited.
+>>>> 2) Find the adjacent nodes and visit if those exists. If not, pop the first node.
+>>>> 3) Repeate until stack is empty.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [city_finding.cpp](city_finding.cpp)
 >>
