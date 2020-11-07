@@ -26,6 +26,8 @@
 >>
 >> Problem #11: [eureka](#problem-11)
 >>
+>> Problem #12: [decomposition sum](#problem-12)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -222,4 +224,21 @@
 >>> **Solution Code**
 >>>
 >>>> [eureka.cpp](eureka.cpp)
+>>
+>> ### Problem #12
+>>
+>>> **Problem Link**
+>>>
+>>>> [BAEKJOON - 분해합(decomposition sum)](https://www.acmicpc.net/problem/2231)
+>>>
+>>> **Solution Process**
+>>>
+>>>> DFS
+>>>> 1) Put first node(city) to visit and check as visited.
+>>>> 2) Find the adjacent nodes and visit if those exists. If not, pop the first node.
+>>>> 3) Repeate until stack is empty.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [decomposition_sum.cpp](decomposition_sum.cpp)
 >>
