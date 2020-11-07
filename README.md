@@ -24,6 +24,8 @@
 >>
 >> Problem #10: [city finding](#problem-10)
 >>
+>> Problem #11: [eureka](#problem-11)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -203,4 +205,21 @@
 >>> **Solution Code**
 >>>
 >>>> [city_finding.cpp](city_finding.cpp)
+>>
+>> ### Problem #11
+>>
+>>> **Problem Link**
+>>>
+>>>> [BAEKJOON - 유레카 이론(Eureka)](https://www.acmicpc.net/problem/10448)
+>>>
+>>> **Solution Process**
+>>>
+>>>> DFS
+>>>> 1) Put first node(city) to visit and check as visited.
+>>>> 2) Find the adjacent nodes and visit if those exists. If not, pop the first node.
+>>>> 3) Repeate until stack is empty.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [eureka.cpp](eureka.cpp)
 >>
