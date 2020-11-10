@@ -252,7 +252,7 @@
 >>>
 >>>> Maze Escape
 >>>>
->>>>> Dongbin is trapped in a NxM size rectangular maze. There lives several monsters that he needs to avoid and escape from the maze. Dongbin is located in cell (1,1) and the exit is located in cell (N,M). 0 is put in the cells with monsters and, 1 is put in cells without monsters. How many moves in minimum should he make to escape from the maze? You should count the starting and the finishing cells in the final answers.
+>>>>> Dongbin is trapped in a NxM size rectangular maze. There lives several monsters that he needs to avoid to escape. In the beginning, Dongbin is located in cell (1,1) and the exit is located in cell (N,M). 0s are put in the cells with monsters and, 1s are put in cells without monsters. How many moves in minimum should he make to escape from the maze? You should count the starting and the finishing cells in the final answers.
 >>>
 >>> **Solution Process**
 >>>
