@@ -206,7 +206,8 @@
 >>>
 >>> **Solution Code**
 >>>
->>>> [city_finding.cpp](city_finding.cpp)
+>>>> [city_finding_DFS.cpp](city_finding_DFS.cpp)
+>>>> [city_finding_BFS.cpp](city_finding_BFS.cpp)
 >>
 >> ### Problem #11
 >>
