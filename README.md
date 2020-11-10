@@ -28,6 +28,8 @@
 >>
 >> Problem #12: [decomposition sum](#problem-12)
 >>
+>> Problem #13: [maze escape](#problem-13)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -243,4 +245,23 @@
 >>> **Solution Code**
 >>>
 >>>> [decomposition_sum.cpp](decomposition_sum.cpp)
+>>
+>> ### Problem #13
+>>
+>>> **Problem**
+>>>
+>>>> Maze Escape
+>>>>
+>>>>> Dongbin is trapped in a NxM size rectangular maze. There lives several monsters that he needs to avoid to escape. In the beginning, Dongbin is located in cell (1,1) and the exit is located in cell (N,M). 0s are put in the cells with monsters and, 1s are put in cells without monsters. How many moves in minimum should he make to escape from the maze? You should count the starting and the finishing cells in the final answers.
+>>>
+>>> **Solution Process**
+>>>
+>>>> BFS
+>>>> 1) Put first node to visit and check as visited.
+>>>> 2) Put every adjacent nodes that is not visited yet and pop the current node.
+>>>> 3) Repeate until queue is empty.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [maze_escape.cpp](maze_escape.cpp)
 >>
