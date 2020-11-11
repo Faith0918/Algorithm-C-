@@ -275,9 +275,9 @@
 >>>
 >>> **Solution Process**
 >>>
->>>> DFS
+>>>> DFS and BFS
 >>>> 1) get the input map
->>>> 0:blank	1:wall	2:virus
+>>>> (0:blank	1:wall	2:virus)
 >>>> 2) Choose 3 blank spaces to place the wall.(DFS)
 >>>> 3) Save the temporary map with the 3 additional walls
 >>>> 4) Spread virus all over to the temporary map.(BFS)
