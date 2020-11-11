@@ -300,7 +300,7 @@
 >>>
 >>>> Search
 >>>> 1) Get the input map and push points with virus presents.
->>>> 2) BFS : Spread virus for S seconds in ascending order.
+>>>> 2) Spread virus for S seconds in ascending order. (BFS)
 >>>> 3) Get the value of map[Y-1][X-1];
 >>>
 >>> **Solution Code**
