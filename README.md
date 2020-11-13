@@ -327,9 +327,9 @@
 >>>> Recursive function
 >>>>> 1) Set input parameters as an unsorted array, the initial point and the end point.
 >>>>> 2) Check if the size of the array is greater than 1.
->>>>> 3-1) If the size of the array is greater than 1, calculate the middle point.
->>>>> 3-2) Call each recursive function giving the array ahead of the middle point and behind.
->>>>> 3-3) After the dividing and conquering, merge those divided and sorted arrays.
+>>>>> 3) If the size of the array is greater than 1, calculate the middle point.
+>>>>> 4) Call each recursive function giving the array ahead of the middle point and behind.
+>>>>> 5) After the dividing and conquering, merge those divided and sorted arrays.
 >>>
 >>> **Solution Code**
 >>>
