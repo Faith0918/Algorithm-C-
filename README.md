@@ -30,6 +30,10 @@
 >>
 >> Problem #13: [maze escape](#problem-13)
 >>
+>> Problem #14: [laboratory](#problem-14)
+>>
+>> Problem #15: [contagion](#problem-15)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -264,4 +268,42 @@
 >>> **Solution Code**
 >>>
 >>>> [maze_escape.cpp](maze_escape.cpp)
+>>
+>> ### Problem #14
+>>
+>>> **Problem Link**
+>>>
+>>>> [BAEKJOON - 연구소(laboratory)](https://www.acmicpc.net/problem/14502)
+>>>
+>>> **Solution Process**
+>>>
+>>>> DFS and BFS
+>>>> 1) get the input map
+>>>> (0:blank	1:wall	2:virus)
+>>>> 2) Choose 3 blank spaces to place the wall.(DFS)
+>>>> 3) Save the temporary map with the 3 additional walls
+>>>> 4) Spread virus all over to the temporary map.(BFS)
+>>>> 5) Compare the number of safe places with the answer candidate.
+>>>> 6) Update the answer if the number is bigger than the answer candidate.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [laboratory.cpp](laboratory.cpp)
+>>
+>> ### Problem #15
+>>
+>>> **Problem Link**
+>>>
+>>>> [BAEKJOON - 경쟁적 전염(contagion)](https://www.acmicpc.net/problem/18405)
+>>>
+>>> **Solution Process**
+>>>
+>>>> Search
+>>>> 1) Get the input map and push points with virus presents.
+>>>> 2) Spread virus for S seconds in ascending order. (BFS)
+>>>> 3) Get the value of map[Y-1][X-1];
+>>>
+>>> **Solution Code**
+>>>
+>>>> [contagion.cpp](contagion.cpp)
 >>
