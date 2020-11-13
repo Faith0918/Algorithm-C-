@@ -318,9 +318,17 @@
 >>> **Solution Process**
 >>>
 >>>> Merge
->>>>> 1) 
+>>>>> 1) Set input parameters as an unsorted array, the initial, middle, and end points.
+>>>>> 2) Set indices for the former array (i) and the latter array (j). 
+>>>>> 3) Set a new index k as the initial point.
+>>>>> 4) While i <= middle point and j <= end point, compare each array's element in the index and put smaller element in the sorted array's kth index.
+>>>>> 5) If while statement breaks, push the residual array's leftovers in the sorted array.
 >>>> Recursive function
->>>>> 1)
+>>>>> 1) Set input parameters as an unsorted array, the initial point and the end point.
+>>>>> 2) Check if the size of the array is greater than 1.
+>>>>> 3-1) If the size of the array is greater than 1, calculate the middle point.
+>>>>> 3-2) Call each recursive function giving the array ahead of the middle point and behind.
+>>>>> 3-3) After the dividing and conquering, merge those divided and sorted arrays.
 >>>
 >>> **Solution Code**
 >>>
