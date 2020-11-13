@@ -323,6 +323,7 @@
 >>>>> 3) Set a new index k as the initial point.
 >>>>> 4) While i <= middle point and j <= end point, compare each array's element in the index and put smaller element in the sorted array's kth index.
 >>>>> 5) If while statement breaks, push the residual array's leftovers in the sorted array.
+>>>>
 >>>> Recursive function
 >>>>> 1) Set input parameters as an unsorted array, the initial point and the end point.
 >>>>> 2) Check if the size of the array is greater than 1.
