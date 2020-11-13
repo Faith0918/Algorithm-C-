@@ -34,6 +34,8 @@
 >>
 >> Problem #15: [contagion](#problem-15)
 >>
+>> Problem #16: [merge sort](#problem-16)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -301,9 +303,26 @@
 >>>> Search
 >>>> 1) Get the input map and push points with virus presents.
 >>>> 2) Spread virus for S seconds in ascending order. (BFS)
->>>> 3) Get the value of map[Y-1][X-1];
+>>>> 3) Print the value of map[Y-1][X-1];
 >>>
 >>> **Solution Code**
 >>>
 >>>> [contagion.cpp](contagion.cpp)
+>>
+>> ### Problem #16
+>>
+>>> **Problem**
+>>>
+>>>> Solve the sorting problem with merge sort algorithm.
+>>>
+>>> **Solution Process**
+>>>
+>>>> Merge
+>>>>> 1) 
+>>>> Recursive function
+>>>>> 1)
+>>>
+>>> **Solution Code**
+>>>
+>>>> [mergesort.cpp](mergesort.cpp)
 >>
