@@ -22,11 +22,22 @@ using namespace std;
 const int dx[4] = {0,1,0,-1};
 const int dy[4] = {1,0,-1,0};
 
+struct cmp {
+	bool operator()(vector<int> a, vector<int> b) {
+		if (a[2] == b[2]) {
+			return a[3] > b[3];
+		}
+		else {
+			return a[2] > b[2];
+		}
+	}
+};
+
 int main() {
 	int N, K, S, X, Y;
 	vector<vector<int>> map;
 	vector<vector<int>> time_map;
-	priority_queue<vector<int>> q;
+	priority_queue<vector<int>, vector<vector<int>>, cmp> q;
 	//TODO : Queue sorting needs to be done
 	//Method Needs to be tried : primary_queue compare function
 	cin >> N >> K;
@@ -41,6 +52,7 @@ int main() {
 				point.push_back(i);
 				point.push_back(j);
 				point.push_back(0);
+				point.push_back(a);
 				q.push(point);
 			}
 			v.push_back(a);
@@ -61,14 +73,16 @@ int main() {
 		}
 		time_map.push_back(v_);
 	}
-	// initialize queue
-	
+	// BFS
 	while (!q.empty()) {
-		vector<int> node = q.front();
+		vector<int> node = q.top();
 		q.pop();
+		
 		int cur_y = node[0];
 		int cur_x = node[1];
 		int cur_t = node[2];
+		int cur_n = node[3];
+		//cout << cur_n << "\n";
 		for (int i = 0; i < 4; i++) {
 			int next_x = cur_x + dx[i];
 			int next_y = cur_y + dy[i];
@@ -77,10 +91,11 @@ int main() {
 				if (map[next_y][next_x] == 0) {
 					map[next_y][next_x] = map[cur_y][cur_x];
 					time_map[next_y][next_x] = next_t;
-					vector<int> next_node(3);
+					vector<int> next_node(4);
 					next_node[0] = next_y;
 					next_node[1] = next_x;
 					next_node[2] = next_t;
+					next_node[3] = cur_n;
 					q.push(next_node);
 				}
 			}

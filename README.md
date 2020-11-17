@@ -32,6 +32,10 @@
 >>
 >> Problem #14: [laboratory](#problem-14)
 >>
+>> Problem #15: [contagion](#problem-15)
+>>
+>> Problem #16: [merge sort](#problem-16)
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -287,4 +291,47 @@
 >>> **Solution Code**
 >>>
 >>>> [laboratory.cpp](laboratory.cpp)
+>>
+>> ### Problem #15
+>>
+>>> **Problem Link**
+>>>
+>>>> [BAEKJOON - 경쟁적 전염(contagion)](https://www.acmicpc.net/problem/18405)
+>>>
+>>> **Solution Process**
+>>>
+>>>> Search
+>>>> 1) Get the input map and push points with virus presents.
+>>>> 2) Spread virus for S seconds in ascending order. (BFS)
+>>>> 3) Print the value of map[Y-1][X-1];
+>>>
+>>> **Solution Code**
+>>>
+>>>> [contagion.cpp](contagion.cpp)
+>>
+>> ### Problem #16
+>>
+>>> **Problem**
+>>>
+>>>> Solve the sorting problem with merge sort algorithm.
+>>>
+>>> **Solution Process**
+>>>
+>>>> Merge
+>>>>> 1) Set input parameters as an unsorted array, the initial, middle, and end points.
+>>>>> 2) Set indices for the former array (i) and the latter array (j). 
+>>>>> 3) Set a new index k as the initial point.
+>>>>> 4) While i <= middle point and j <= end point, compare each array's element in the index and put smaller element in the sorted array's kth index.
+>>>>> 5) If while statement breaks, push the residual array's leftovers in the sorted array.
+>>>>
+>>>> Recursive function
+>>>>> 1) Set input parameters as an unsorted array, the initial point and the end point.
+>>>>> 2) Check if the size of the array is greater than 1.
+>>>>> 3) If the size of the array is greater than 1, calculate the middle point.
+>>>>>> * Call each recursive function giving the array ahead of the middle point and behind.
+>>>>>> * After the dividing and conquering, merge those divided and sorted arrays.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [mergesort.cpp](mergesort.cpp)
 >>
