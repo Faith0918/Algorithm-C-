@@ -351,7 +351,6 @@
 >>>>> 1) The solution must give the minimum value that needs BFS algorithm to solve.
 >>>>> 2) Queue is used to implement BFS Algorithm 
 >>>>>> * Unsolved yet. 
->>>>>> * After the dividing and conquering, merge those divided and sorted arrays.
 >>>
 >>> **Solution Code**
 >>>
