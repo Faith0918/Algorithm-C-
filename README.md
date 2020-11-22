@@ -343,7 +343,7 @@
 >>
 >>> **Problem**
 >>>
->>>> [Moving Blocks](https://programmers.co.kr/learn/courses/30/lessons/60063)
+>>>> [Programmers - 블록 이동하기(Moving Blocks)](https://programmers.co.kr/learn/courses/30/lessons/60063)
 >>>
 >>> **Solution Process**
 >>>
