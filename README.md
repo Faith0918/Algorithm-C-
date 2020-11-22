@@ -36,6 +36,10 @@
 >>
 >> Problem #16: [merge sort](#problem-16)
 >>
+>> Problem #17: [moving blocks](#problem-17)
+>>
+>> Problem #18:
+>>
 >> ### Problem #1
 >>
 >>> **Problem Link** 
@@ -335,3 +339,22 @@
 >>>
 >>>> [mergesort.cpp](mergesort.cpp)
 >>
+>> ### Problem #17
+>>
+>>> **Problem**
+>>>
+>>>> [Moving Blocks](https://programmers.co.kr/learn/courses/30/lessons/60063)
+>>>
+>>> **Solution Process**
+>>>
+>>>> BFS
+>>>>> 1) The solution must give the minimum value that needs BFS algorithm to solve.
+>>>>> 2) Queue is used to implement BFS Algorithm 
+>>>>>> * Unsolved yet. 
+>>>>>> * After the dividing and conquering, merge those divided and sorted arrays.
+>>>
+>>> **Solution Code**
+>>>
+>>>> [moving_blocks.cpp](moving_blocks.cpp)
+>>>> [moving_blocks.py](moving_blocks.py)
+>>>> [moving_blocks_v2.py](moving_blocks_v2.py)
