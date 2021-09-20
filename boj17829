@@ -1,0 +1,36 @@
+# 5:57 start reading
+
+
+# level 마다 board를 새로 계산
+## 길이가 1이면, 값 return
+## 길이가 1보다 크면, 새 보드 구하기
+## 1) 2*2 window start point 계산
+## 2) 최대값 찾기
+import pdb
+n = int(input())
+board= [list(map(int, input().split())) for _ in range(n)]
+
+def solve(l, b):
+    if l == 1:
+        return b[0][0]
+    else:
+        new_board = [[0 for _ in range(l//2)] for _ in range(l//2)]
+        for r in range(0, l, 2):
+            for c in range(0,l, 2):
+                window = [[0,0],[0,0]]
+                for i in range(2):
+                    for j in range(2):
+                        window[i][j] = b[r+i][c+j]
+                m = find_max(window)
+                new_board[r//2][c//2] = m
+        return solve(l//2, new_board)
+def find_max(b):
+    m = -int(1e9)
+    ans = -int(1e9)
+    l = []
+    for r in range(len(b)):
+        for c in range(len(b)):
+            l.append(b[r][c])
+    l = sorted(l, reverse=True)
+    return l[1]
+print(solve(n, board))
