@@ -1,36 +1,37 @@
-#include<hash_map>
+
+
+// Solution
+// rule1. 이전 인덱스 값 < 이후 인덱스 값 - 뺄셈
+// rule2. 이전 인덱스 값 >= 이후 인덱스 값 - 덧셈
+
+#include <bits/stdc++.h>
+#include <iostream>
+#include <hash_map>
+using namespace std;
+using namespace __gnu_cxx;      // MinGW gcc 컴파일러
 class Solution {
 public:
     int romanToInt(string s) {
-        hashmap<char, int> map;
+        hash_map<char, int> map;
         int ans = 0;
-        vector<int> v;
-        cout << num << "\n";
         int base[7] = { 1000,500,100,50,10,5,1 };
-        map.put(make_pair('M', 1000));
-        map.put(make_pair('D', 500));
-        map.put(make_pair('C', 100));
-        map.put(make_pair('L', 50));
-        map.put(make_pair('X', 10));
-        map.put(make_pair('IX', 9));
-        map.put(make_pair('V', 5));
-        map.put(make_pair('IV', 4));
-        map.put(make_pair('I', 1));
+        map.insert(make_pair('M', 1000));
+        map.insert(make_pair('D', 500));
+        map.insert(make_pair('C', 100));
+        map.insert(make_pair('L', 50));
+        map.insert(make_pair('X', 10));
+        map.insert(make_pair('V', 5));
+        map.insert(make_pair('I', 1));
+        ans += map[s[0]];
+        for (int i = 0; i < s.length(); i++) {
+            int cur = map[s[i]];
+            int pre = map[s[i - 1]];
+            if (pre < cur) ans -= pre * 2;
+            ans += cur;
+        }
 
-        for (int i = 0; i < base.size(); i++) {
-            int a = num / base[i];
-            if (a == 0) {
-                contine;
-            }
-            else {
-                v.push_back(a);
-                num = num % base[i];
-            }
-        }
-        int Size = v.size();
-        for (int i = 0; i < Size(); i++) {
-            ans += v[i] * 1e(Size - i);
-        }
+
         cout << ans;
+        return ans;
     }
 };

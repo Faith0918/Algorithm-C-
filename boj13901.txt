@@ -1,0 +1,33 @@
+r, c = map(int, input().split())
+k = int(input())
+m = [[0]*c for _ in range(r)]
+for i in range(k):
+    br, bc = map(int, input().split())
+    m[br][bc] = 1
+sr, sc = map(int, input().split())
+directions = list(map(int, input().split()))
+for i, d in enumerate(directions):
+    d -=1
+    directions[i] = d
+
+dr = [-1, 1, 0, 0] #up, down, left, right
+dc = [0, 0, -1, 1]
+d = 0
+stack = 0
+m[sr][sc] = -1
+while True:
+    if stack >=4:
+        break
+    n_r = sr + dr[directions[d]]
+    n_c = sc + dc[directions[d]]
+    if n_r >= 0 and n_c >= 0 and n_r <r and n_c <c and m[n_r][n_c] == 0:
+        m[n_r][n_c] = -1
+        sr = n_r
+        sc = n_c
+        stack = 0
+    else:
+        d = (d+1)%len(directions)
+        stack +=1
+
+
+print(str(sr)+" "+str(sc))
